@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tw.com.frankchang.houli.sunday_classno_06_mediaplayerwithinternet.MainActivity"
+    android:orientation="vertical"
+    android:padding="@dimen/xml_padding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/xml_layout_marginBottom">
+
+        <TextView
+            android:layout_width="@dimen/xml_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/xml_url"
+            android:textSize="@dimen/xml_textSize"/>
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="@dimen/xml_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/xml_play"
+        android:textSize="@dimen/xml_textSize"
+        android:layout_marginBottom="@dimen/xml_layout_marginBottom"
+        android:onClick="playOnClick"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/xml_stop"
+        android:textSize="@dimen/xml_textSize"
+        android:layout_marginBottom="@dimen/xml_layout_marginBottom"
+        android:onClick="stopOnClick"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MediaPlayer With Internet System."
+        android:textSize="@dimen/xml_textSize"
+        android:textColor="@color/blue"/>
+</LinearLayout>

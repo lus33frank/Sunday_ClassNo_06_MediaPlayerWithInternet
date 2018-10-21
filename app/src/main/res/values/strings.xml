@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">No：06_MediaPlayerWithInternet</string>
+    <string name="xml_url">網址：</string>
+    <string name="xml_play">Play</string>
+    <string name="xml_stop">Stop</string>
+    <string name="manin_start">開始播放！</string>
+    <string name="main_prepareasync">音樂資料緩衝中...</string>
+    <string name="main_play">開始播放！</string>
+    <string name="main_stop">停止播放！</string>
+</resources>
